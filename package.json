@@ -1,0 +1,33 @@
+{
+  "name": "@openmaths/constants",
+  "version": "0.1.0",
+  "description": "The OpenMaths Constatns",
+  "main": "./dist/main.js",
+  "typings": "./dist/main.d.ts",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "make compile && node ./dist/main.js",
+    "test": "make test"
+  },
+  "dependencies": {
+    "@openmaths/utils": "^1.0.0",
+    "@threestup/monads": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "22.1.1",
+    "@types/node": "8.5.9",
+    "jest": "22.1.4",
+    "prettier": "1.10.2",
+    "prettier-standard": "8.0.0",
+    "ts-jest": "22.0.3",
+    "typescript": "2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OpenMaths/mod-constants.git"
+  },
+  "author": "Slavomir Vojacek <slavomirvojacek@gmail.com>",
+  "license": "ISC"
+}
