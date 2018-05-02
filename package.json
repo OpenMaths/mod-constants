@@ -1,7 +1,7 @@
 {
   "name": "@openmaths/constants",
   "version": "1.0.0",
-  "description": "The OpenMaths Constatns",
+  "description": "The OpenMaths Constants",
   "main": "./dist/main.js",
   "typings": "./dist/main.d.ts",
   "engines": {
