@@ -1,7 +1,7 @@
 import * as Common from "./index"
 
 describe("Common", () => {
-  it("exports correctly", () => {
+  it("exports everything correctly", () => {
     expect(Common.HeaderKey).toBeDefined()
   })
 })
